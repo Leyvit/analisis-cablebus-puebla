@@ -1,0 +1,22 @@
+# ============================================
+# Análisis Cablebús Puebla - Dependencias
+# ============================================
+# Instalar con: pip install -r requirements.txt
+
+# Manipulación y análisis de datos
+pandas==2.2.0
+numpy==1.26.4
+
+# Visualización
+matplotlib==3.8.2
+seaborn==0.13.2
+plotly==5.18.0
+
+# Jupyter
+jupyter==1.0.0
+notebook==7.1.0
+ipykernel==6.29.2
+
+# Utilidades
+requests==2.31.0
+python-dotenv==1.0.1

@@ -1,0 +1,34 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Datos sensibles (nunca subir datos personales)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+# Excepto archivos de ejemplo o documentados
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
